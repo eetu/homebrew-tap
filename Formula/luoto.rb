@@ -1,28 +1,28 @@
 class Luoto < Formula
   desc "Create and manage supply-chain-safe dev sandboxes"
   homepage "https://github.com/eetu/luoto"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/eetu/luoto/releases/download/v0.2.2/luoto-0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "a332b788117070bff8f97245cb558c18d8f8e80678441fac3917ebfca7282b7a"
+      url "https://github.com/eetu/luoto/releases/download/v0.3.0/luoto-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b9783db206e3c3564c88a90381b66d35d8b25b1df30df5d1dac89edb838b4a9c"
     end
     on_intel do
-      url "https://github.com/eetu/luoto/releases/download/v0.2.2/luoto-0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "a93e44a5769e601226bbdf21487a0cf4eabf5e8abefd6cff9f4c15c14a0cc09f"
+      url "https://github.com/eetu/luoto/releases/download/v0.3.0/luoto-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9ae5d8840d991f71938eb173093b96d9139f63a37f17329592a9c2d051adb68e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eetu/luoto/releases/download/v0.2.2/luoto-0.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c8ebb96aea6fdae91f53e1d88d0e896f62cafa7ff5c1a46edcbc11f2bd093462"
+      url "https://github.com/eetu/luoto/releases/download/v0.3.0/luoto-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b5bb540463e05c8d87dcb276481e6b7964ca1691189a887d80e273dcb29ccb9d"
     end
     on_intel do
-      url "https://github.com/eetu/luoto/releases/download/v0.2.2/luoto-0.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "48ce00b87cbdbc2700e6d33fd7026631f8f5c688b3482b065dfe873035b742c8"
+      url "https://github.com/eetu/luoto/releases/download/v0.3.0/luoto-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5ad8378877e36c259a8467202837902d032dd7c686267587f2a5a3efdb3f98bb"
     end
   end
 
