@@ -1,30 +1,30 @@
 class Luoto < Formula
   desc "Create and manage supply-chain-safe dev sandboxes"
   homepage "https://github.com/eetu/luoto"
-  version "0.4.6"
+  version "0.4.7"
   license "MIT"
 
   on_macos do
     # Desktop notifications under luoto's own name; osascript's come from Script Editor.
     depends_on "terminal-notifier"
     on_arm do
-      url "https://github.com/eetu/luoto/releases/download/v0.4.6/luoto-0.4.6-aarch64-apple-darwin.tar.gz"
-      sha256 "2bd2cb472ce4e62b5ab90824b098247d805178980a4a133c117a28e922145fdf"
+      url "https://github.com/eetu/luoto/releases/download/v0.4.7/luoto-0.4.7-aarch64-apple-darwin.tar.gz"
+      sha256 "82df65d6d3d4da0de47824d57c18c116af392d152de026bafd7d1e017a1db15e"
     end
     on_intel do
-      url "https://github.com/eetu/luoto/releases/download/v0.4.6/luoto-0.4.6-x86_64-apple-darwin.tar.gz"
-      sha256 "28ca078d48a36afc23c931e97dd18afa1f0d22cb17dc7561cea9e640270fc36a"
+      url "https://github.com/eetu/luoto/releases/download/v0.4.7/luoto-0.4.7-x86_64-apple-darwin.tar.gz"
+      sha256 "bcf7c8e50034a499f56e2a1f89425f1468da6ae576c4a3caff74a8f476b3eea6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eetu/luoto/releases/download/v0.4.6/luoto-0.4.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8aca30f78ba386639bf817a9ad457db6257e286acc9964e8909544f25d878df7"
+      url "https://github.com/eetu/luoto/releases/download/v0.4.7/luoto-0.4.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e8b1d2ad40e21d08c449611e13e2a1897a1a56adb9281190c9aa216eb2ec273a"
     end
     on_intel do
-      url "https://github.com/eetu/luoto/releases/download/v0.4.6/luoto-0.4.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aa7eaa6948af3b7f48f9e23820d8aa53f575ca20877bca111b9b9e38d0fab848"
+      url "https://github.com/eetu/luoto/releases/download/v0.4.7/luoto-0.4.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4fb5a0769f0fea381b767dd6cb0f0802db56dac221e67e491d35545137dd96e1"
     end
   end
 
